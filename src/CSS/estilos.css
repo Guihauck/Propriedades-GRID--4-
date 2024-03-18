@@ -1,0 +1,53 @@
+:root {
+  font-size: 62.5%;
+  --color-background: #232023;
+  --color-background-cards: #A7A7A9;
+  --color-border-cards: #rgba(175, 175, 180, 0.81);
+  --color-font: white;
+}
+
+body {
+  border: 1px solid orange;
+  font-size: 1.4rem;
+  font-family: 'Poppins';
+  background-color: var(--color-background);
+  color: var(--color-font);
+}
+
+.cabecalho {
+  border: 2px solid saddlebrown;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.0rem 4.0rem;
+  gap: 1.2rem;
+}
+
+.cabecalho h1 {
+  border: 2px solid rgb(19, 127, 139);
+  font-size: 2.6rem;
+}
+
+.cabecalho img {
+  border: 2px solid rgb(19, 127, 139);
+  height: 4.0rem;
+}
+
+.listagem-pokemon {
+  border: 2px solid rgb(19, 127, 139);
+  padding: 2.8rem 6.8rem;
+}
+
+.listagem-pokemon .cartao-pokemon {
+  background-color: var(--color-background-cards);
+  border: 2px solid rgb(238, 229, 230);
+  border-radius: 1.0rem;
+  width: 20.0rem;
+  height: 30rem;
+}
+
+.listagem-pokemon {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  place-items: center;
+  gap: 1.2rem;
+}
