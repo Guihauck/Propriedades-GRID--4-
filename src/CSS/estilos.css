@@ -1,13 +1,18 @@
 :root {
   font-size: 62.5%;
+  --color-font: white;
   --color-background: #232023;
   --color-background-cards: #A7A7A9;
-  --color-border-cards: #rgba(175, 175, 180, 0.81);
-  --color-font: white;
+  --color-types-elements-cards-water: #6E93F0;
+  --color-types-elements-cards-fire: #EB8836;
+  --color-types-elements-cards-venom: #9C5797;
+  --color-types-elements-cards-gram: #86C469;
+  --color-types-elements-cards-insect: #A6AF1E;
+  --color-types-elements-cards-normal: #525554;
+  --color-types-elements-cards-air: #1A99A2;
 }
 
 body {
-  border: 1px solid orange;
   font-size: 1.4rem;
   font-family: 'Poppins';
   background-color: var(--color-background);
@@ -15,39 +20,89 @@ body {
 }
 
 .cabecalho {
-  border: 2px solid saddlebrown;
   display: flex;
   justify-content: space-between;
-  padding: 1.0rem 4.0rem;
+  padding: 1.8rem 4.0rem;
   gap: 1.2rem;
 }
 
-.cabecalho h1 {
-  border: 2px solid rgb(19, 127, 139);
+.cabecalho h1, img {
   font-size: 2.6rem;
-}
-
-.cabecalho img {
-  border: 2px solid rgb(19, 127, 139);
   height: 4.0rem;
-}
-
-.listagem-pokemon {
-  border: 2px solid rgb(19, 127, 139);
-  padding: 2.8rem 6.8rem;
 }
 
 .listagem-pokemon .cartao-pokemon {
   background-color: var(--color-background-cards);
-  border: 2px solid rgb(238, 229, 230);
+  border: 2px solid #EEE5e6;
+  padding: .6rem;
   border-radius: 1.0rem;
   width: 20.0rem;
   height: 30rem;
 }
 
 .listagem-pokemon {
+  padding: 2.8rem 6.8rem;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  place-items: center;
-  gap: 1.2rem;
+  grid-template-columns: repeat(7, 20rem);
+  place-content: center;
+  gap: 2.4rem;
+}
+
+.cartao-pokemon .informacoes-pokemons {
+  display: flex;
+  border-radius: .8rem;
+  border: 2px solid #EEE5e6;
+  padding: .4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tipos {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  padding: .2rem;
+}
+
+.grama {
+  background-color: var(--color-types-elements-cards-gram);
+  padding: .6rem;
+  border-radius: .6rem;
+}
+
+.veneno {
+  background-color: var(--color-types-elements-cards-venom);
+  padding: .6rem;
+  border-radius: .6rem;
+}
+
+.fogo {
+  background-color: var(--color-types-elements-cards-fire);
+  padding: .6rem;
+  border-radius: .6rem;
+}
+
+.agua {
+  background-color: var(--color-types-elements-cards-water);
+  padding: .6rem;
+  border-radius: .6rem;
+}
+
+.inseto {
+  background-color: var(--color-types-elements-cards-insect);
+  padding: .6rem;
+  border-radius: .6rem;
+}
+
+.normal {
+  background-color: var(--color-types-elements-cards-normal);
+  padding: .6rem;
+  border-radius: .6rem;
+}
+
+.voo {
+  background-color: var(--color-types-elements-cards-air);
+  padding: .6rem;
+  border-radius: .6rem;
 }
