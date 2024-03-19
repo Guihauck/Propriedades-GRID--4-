@@ -1,8 +1,9 @@
 :root {
   font-size: 62.5%;
   --color-font: white;
-  --color-background: #232023;
-  --color-background-cards: #A7A7A9;
+  --color-background-mode-dark: #212022;
+  --color-background-cards: #ACA6AB;
+  --color-background-mode-light: #A8A8A8;
   --color-types-elements-cards-water: #6E93F0;
   --color-types-elements-cards-fire: #EB8836;
   --color-types-elements-cards-venom: #9C5797;
@@ -10,12 +11,13 @@
   --color-types-elements-cards-insect: #A6AF1E;
   --color-types-elements-cards-normal: #525554;
   --color-types-elements-cards-air: #1A99A2;
+  --color-types-elements-cards-pressuresair: ##8ED3D7; 
 }
 
 body {
   font-size: 1.4rem;
   font-family: 'Poppins';
-  background-color: var(--color-background);
+  background-color: var(--color-background-mode-dark);
   color: var(--color-font);
 }
 
@@ -35,7 +37,7 @@ body {
   background-color: var(--color-background-cards);
   border: 2px solid #EEE5e6;
   padding: .6rem;
-  border-radius: 1.0rem;
+  border-radius: 1.4rem;
   width: 20.0rem;
   height: 30rem;
 }
@@ -61,6 +63,7 @@ body {
 .tipos {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: .8rem;
   padding: .2rem;
 }
