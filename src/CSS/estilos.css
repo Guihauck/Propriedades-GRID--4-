@@ -11,7 +11,7 @@
   --color-types-elements-cards-insect: #A6B91A;
   --color-types-elements-cards-normal: #525554;
   --color-types-elements-cards-air: #1A99A2;
-  --color-types-elements-cards-pressuresair: ##8ED3D7; 
+  --color-types-elements-cards-pressuresair: ##8ED3D7;
 }
 
 body {
@@ -21,6 +21,11 @@ body {
   color: var(--color-font);
 }
 
+#botao-alterar-tema {
+  border: none;
+  background: none;
+}
+
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -28,7 +33,8 @@ body {
   gap: 1.2rem;
 }
 
-.cabecalho h1, img {
+.cabecalho h1,
+img {
   font-size: 2.6rem;
   height: 4.0rem;
 }
@@ -48,7 +54,7 @@ body {
   grid-template-columns: repeat(7, 20rem);
   place-content: center;
   gap: 2.4rem;
-  
+
 }
 
 .cartao-pokemon .informacoes-pokemons {
