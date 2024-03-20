@@ -12,6 +12,9 @@
   --color-types-elements-cards-normal: #525554;
   --color-types-elements-cards-air: #1A99A2;
   --color-types-elements-cards-pressuresair: ##8ED3D7;
+  --color-webkit-scrollbar-track: #F1E9E9;
+  --color-webkit-scrollbar-thumb: #582965;
+  --color-webkit-scrollbar-border: #FFFFFF;
 }
 
 body {
