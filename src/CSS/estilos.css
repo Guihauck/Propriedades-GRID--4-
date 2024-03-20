@@ -35,10 +35,22 @@ body {
   filter: brightness(150%);
 }
 
+#botao-alterar-tema {
+  transition-property: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
 .cabecalho img:hover {
   cursor: pointer;
   transform: scale(1.1);
   filter: saturate(280%);
+}
+
+.cabecalho img {
+  transition-property: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
 }
 
 .cabecalho {
@@ -170,4 +182,10 @@ main .descricao-pokemon {
   cursor: pointer;
   transform: scale(1.1);
   filter: saturate(280%);
+}
+
+.rodape a {
+  transition-property: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
 }
