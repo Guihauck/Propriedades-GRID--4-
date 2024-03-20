@@ -26,6 +26,18 @@ body {
   background: none;
 }
 
+#botao-alterar-tema:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: brightness(150%);
+}
+
+.cabecalho img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: saturate(280%);
+}
+
 .cabecalho {
   display: flex;
   justify-content: space-between;
