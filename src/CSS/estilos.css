@@ -149,3 +149,25 @@ main .descricao-pokemon {
   padding: .4rem .2rem;
   font-size: 1.2rem;
 }
+
+.rodape {
+  padding: 1.8rem 4.0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  font-size: 1.8rem;
+}
+
+.rodape .photo-profile {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 4.0rem;
+  width: 4.0rem;
+}
+
+.rodape a:nth-child(2):hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: saturate(280%);
+}
