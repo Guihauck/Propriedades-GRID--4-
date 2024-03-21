@@ -228,3 +228,21 @@ main .descricao-pokemon {
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
 }
+
+@keyframes MoveCards {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+.cartao-pokemon {
+  --delay: 1s;
+  animation-name: MoveCards;
+  animation-duration: 1s;
+  animation-delay: var(--delay);
+  animation-fill-mode: backwards;
+}
