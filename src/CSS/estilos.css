@@ -32,6 +32,15 @@ body.modo-escuro {
   color: white;
 }
 
+.modo-escuro .cartao-pokemon {
+  background-color: var(--color-background-cards-mode-dark);
+  border: 3px solid white;
+}
+
+.modo-escuro .cartao-pokemon .informacoes-pokemons {
+  border: 3px solid white;
+}
+
 #botao-alterar-tema {
   border: none;
   background: none;
@@ -76,15 +85,11 @@ img {
 
 .cartao-pokemon {
   background-color: var(--color-background-card-mode-light);
-  border: 2px solid #082F49;
+  border: 3px solid #082F49;
   padding: 1.2rem;
   border-radius: 1.4rem;
   width: 20.0rem;
   height: 30rem;
-}
-
-.modo-escuro .cartao-pokemon {
-  background-color: var(--color-background-cards-mode-dark);
 }
 
 .listagem-pokemon {
@@ -98,7 +103,7 @@ img {
 .cartao-pokemon .informacoes-pokemons {
   display: flex;
   border-radius: 1.4rem;
-  border: 2px solid #082F49;
+  border: 3px solid #082F49;
   padding: .4rem;
   display: flex;
   align-items: center;
