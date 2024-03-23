@@ -27,6 +27,11 @@ body {
   color: var(--color-font-mode-light);
 }
 
+body.modo-escuro {
+  background-color: var(--color-background-mode-dark);
+  color: white;
+}
+
 #botao-alterar-tema {
   border: none;
   background: none;
@@ -34,7 +39,7 @@ body {
 
 #botao-alterar-tema:hover {
   cursor:pointer;
-  transform: scale(1.1) rotate(-180deg);
+  transform: scale(1.1) rotate(-12deg);
   filter: brightness(150%);
 }
 
@@ -76,6 +81,10 @@ img {
   border-radius: 1.4rem;
   width: 20.0rem;
   height: 30rem;
+}
+
+.modo-escuro .cartao-pokemon {
+  background-color: var(--color-background-cards-mode-dark);
 }
 
 .listagem-pokemon {
