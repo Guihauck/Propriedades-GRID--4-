@@ -1,0 +1,12 @@
+@media(min-width:1024px) {
+  main .listagem-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cabecalho h1 {
+    font-size: 22px;
+  }
+}
